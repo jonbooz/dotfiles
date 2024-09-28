@@ -3,6 +3,7 @@
 ## Guides
 
 - [vim](/docs/vim.md)
+- [tmux](/docs/tmux.md)
 
 ## Installing
 
@@ -16,6 +17,8 @@ You are required to create the following lua files to provide local system confi
 ## Software Used
 
 - [neovim](https://github.com/neovim/neovim)
+- [tmux](https://github.com/tmux/tmux)
+- [zsh](https://www.zsh.org/)
 
 ## Neovim Plugins:
 
