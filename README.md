@@ -21,8 +21,6 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim) as a plugin manager, here 
 - [LuaSnip](https://github.com/L3MON4D3/LuaSnip) for snippets.
 - [undotree](https://github.com/mbbill/undotree) for all your accidental undo's
 - [vim-fugitive](https://github.com/tpope/vim-fugitive) for git within vim
-- [vim-rhubarb](https://github.com/tpope/vim-rhubarb) primarily just for `:GBrowse` - going to the file you're in, in your browser
-- [copilot.vim](https://github.com/github/copilot.vim) to let robots do our work for us
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) for a better than nerdtree experience
 - [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons) for icons
 - [lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) a good looking statusline
