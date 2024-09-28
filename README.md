@@ -7,6 +7,16 @@
 
 ## Installing
 
+### New system setup
+
+All required software can be installed with the included `install/new-x.sh` scripts. Scripts are available for MacOS and Linux (Ubuntu). They can either be run directly, or executed as part of a more system specific script.
+
+### zsh
+
+The provided zsh config provides two hooks for local system config:
+- `.config/zsh/local/aliases-local.sh` - For any aliases
+- `.config/zsh/local/path-local.sh` - For any `$PATH` updates
+
 ### nvim
 
 You are required to create the following lua files to provide local system configs. If you don't have any local config, they still need to be created but can return empty tables:
@@ -19,6 +29,15 @@ You are required to create the following lua files to provide local system confi
 - [neovim](https://github.com/neovim/neovim)
 - [tmux](https://github.com/tmux/tmux)
 - [zsh](https://www.zsh.org/)
+- [amethyst](https://ianyh.com/amethyst/)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [fzf](https://github.com/junegunn/fzf)
+- [bat](https://github.com/sharkdp/bat)
+- [eza](https://github.com/eza-community/eza)
+- [btop](https://github.com/aristocratos/btop)
+- [nerd fonts](https://www.nerdfonts.com/font-downloads) for devicons to display in nvim-tree
+- [cmake](https://cmake.org/) `brew install cmake` or else the installation of telescopes fzf plugin will fail
+- [fd](https://github.com/sharkdp/fd) as an optional dependency of telescope, used in telescope.lua
 
 ## Neovim Plugins:
 
