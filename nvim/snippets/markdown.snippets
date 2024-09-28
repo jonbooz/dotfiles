@@ -1,0 +1,24 @@
+snippet tiles
+        {{< tiles class="tiles-two" >}}
+            {{< tile pos="one" src="${1}" >}}
+            {{< tile pos="two" src="${2}" >}}
+        {{< /tiles >}}
+
+snippet tilesmix
+         {{< tiles class="tiles-two-mix" >}}
+            {{< tile pos="one-${1}" src="${2}" >}}
+            {{< tile pos="two-${3}" src="${4}" >}}
+        {{< /tiles >}}
+
+snippet tiles-fp
+        {{< tiles-fp class="tiles-two" year="${1}" week="${2}">}}
+            {{< tile pos="one" img="${3}" >}}
+            {{< tile pos="two" img="${4}" >}}
+        {{< /tiles >}}
+
+snippet tilesmix-fp
+         {{< tiles-fp class="tiles-two-mix" year="${1}" week="${2}" >}}
+            {{< tile pos="one-${3}" img="${4}" >}}
+            {{< tile pos="two-${5}" img="${6}" >}}
+        {{< /tiles >}}
+
