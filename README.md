@@ -4,6 +4,15 @@
 
 - [vim](/docs/vim.md)
 
+## Installing
+
+### nvim
+
+You are required to create the following lua files to provide local system configs. If you don't have any local config, they still need to be created but can return empty tables:
+- `lua/jonbooz/local/lsplang.lua` - table with list of local LSPs to install
+- `lua/jonbooz/local/plugins.lua` - table with list of local plugins to install
+- `lua/jonbooz/local/treesitterlang.lua` - table with list of local treesitter languages to install
+
 ## Software Used
 
 - [neovim](https://github.com/neovim/neovim)
