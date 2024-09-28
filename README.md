@@ -4,6 +4,7 @@
 
 - [vim](/docs/vim.md)
 - [tmux](/docs/tmux.md)
+- [amethyst](/docs/amethyst.md)
 
 ## Installing
 
