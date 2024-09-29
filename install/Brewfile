@@ -1,0 +1,12 @@
+brew "neovim"
+brew "cmake"
+brew "fd"
+brew "ripgrep"
+brew "tmux"
+brew "fzf"
+brew "bat"
+brew "eza"
+brew "btop"
+brew "glow"
+
+cask "amethyst"
