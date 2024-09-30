@@ -8,5 +8,7 @@ brew "bat"
 brew "eza"
 brew "btop"
 brew "glow"
+brew "lua"
+brew "luarocks"
 
 cask "amethyst"
