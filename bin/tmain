@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+tmux new-session -s main -n scratch \; \
+    new-window -n 'notes' \; \
+    send-keys 'cd /Users/jon/Documents/Notes' C-m \; \
+    send-keys 'vim' C-m \; \
+    send-keys ',l' C-m \; \
+    send-keys C-w 'l' \; \
+    send-keys ',p' \; \
+    new-window -n 'web' \; \
+    send-keys 'cd' C-m \; \
+    new-window -n 'cloud' \; \
+    send-keys 'cd' C-m \; \
+    new-window -n 'dev' \; \
+    send-keys 'cd /Users/jon/workspace' C-m \; \
+    select-window -t 2
