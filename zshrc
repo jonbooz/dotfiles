@@ -56,5 +56,5 @@ fi
 source ~/.config/zsh/bun.zsh
 source ~/.config/zsh/fzf.zsh
 
-compinit
-eval "$(zoxide init zsh)"
+# compinit
+# eval "$(zoxide init zsh)"
