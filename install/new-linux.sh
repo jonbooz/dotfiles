@@ -5,6 +5,7 @@ sudo apt update
 echo "Installing dependencies... " && \
     sudo apt install -y vim \
             neovim \
+            npm \
             fd-find \
             ripgrep \
             cmake \
