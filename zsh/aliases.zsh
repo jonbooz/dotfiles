@@ -40,7 +40,6 @@ alias gsubupl='git -c protocol.file.allow=always submodule update --remote --rec
 
 # cd
 alias cdd='cd ~/workspace/dotfiles'
-alias cd='z'
 
 # tmux
 alias tn="tmux new -s"
