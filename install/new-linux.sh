@@ -13,6 +13,10 @@ echo "Installing dependencies... " && \
             bat \
             gpg
 
+# Alias bat correctly
+mkdir -p ~/.local/bin
+ln -s /usr/bin/batcat ~/.local/bin/bat
+
 echo "Installing eza... "
 sudo mkdir -p /etc/apt/keyrings
 wget -qO- https://raw.githubusercontent.com/eza-community/eza/main/deb.asc | sudo gpg --dearmor -o /etc/apt/keyrings/gierens.gpg
