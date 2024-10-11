@@ -1,6 +1,6 @@
 # tmux Commands and Notes
 
-Unless told otherwise, release `<C-a>` before keying the next key.
+On Mac, the prefix is `<C-a>`, on remote systems, it is `<C-b>`. This allows using and controlling a remote tmux instance inside a local tmux instance.
 
 For more, see [here](https://gist.github.com/MohamedAlaa/2961058).
 
