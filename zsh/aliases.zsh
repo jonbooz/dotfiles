@@ -35,6 +35,7 @@ alias gp='git push'
 alias gpo='git push origin mainline'
 alias gst='git status -u'
 alias it='git'
+alias gclsb='git clone --recurse-submodules -j8 git://github.com/foo/bar.git'
 alias gsubup='git submodule update --remote --recursive'
 alias gsubupl='git -c protocol.file.allow=always submodule update --remote --recursive'
 

@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 sudo apt update
 
@@ -17,6 +17,9 @@ echo "Installing dependencies... " && \
 # Alias bat correctly
 mkdir -p ~/.local/bin
 ln -s /usr/bin/batcat ~/.local/bin/bat
+
+# Alias fd correctly
+ln -s $(which fdfind) ~/.local/bin/fd
 
 echo "Installing eza... "
 sudo mkdir -p /etc/apt/keyrings
