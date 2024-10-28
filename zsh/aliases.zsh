@@ -56,5 +56,4 @@ alias htop="btop"
 # other
 alias :q='exit'
 alias :wq='exit'
-alias rsync='rsync --info=progress2'
 
