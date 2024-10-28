@@ -38,23 +38,28 @@ export HISTCONTROL=ignoredups:erasedups
 # After each command, save and reload history
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
+ZSH_CONFIG=~/.config/zsh/
+
 ## Sources
-source ~/.config/zsh/aliases.zsh
-if [[ -f ~/.config/zsh/local/aliases-local.zsh ]]; then
-    source ~/.config/zsh/local/aliases-local.zsh
+source $ZSH_CONFIG/aliases.zsh
+if [[ -f $ZSH_CONFIG/local/aliases-local.zsh ]]; then
+    source $ZSH_CONFIG/local/aliases-local.zsh
 fi
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    source ~/.config/zsh/path-mac.zsh
+    source $ZSH_CONFIG/path-mac.zsh
 elif [[ "$OSTYPE" == "linux-gnu" ]]; then
-    source ~/.config/zsh/path-linux.zsh
+    source $ZSH_CONFIG/path-linux.zsh
 fi
-if [[ -f ~/.config/zsh/local/path-local.zsh ]]; then
-    source ~/.config/zsh/local/path-local.zsh
+if [[ -f $ZSH_CONFIG/local/path-local.zsh ]]; then
+    source $ZSH_CONFIG/local/path-local.zsh
+fi
+if [[ -f $ZSH_CONFIG/local/rc-local.zsh ]]; then
+    source $ZSH_CONFIG/local/rc-local.zsh
 fi
 
-source ~/.config/zsh/bun.zsh
-source ~/.config/zsh/fzf.zsh
+source $ZSH_CONFIG/bun.zsh
+source $ZSH_CONFIG/fzf.zsh
 
 # compinit
 # eval "$(zoxide init zsh)"

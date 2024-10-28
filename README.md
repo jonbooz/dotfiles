@@ -17,6 +17,7 @@ All required software can be installed with the included `install/new-x.sh` scri
 The provided zsh config provides two hooks for local system config:
 - `.config/zsh/local/aliases-local.sh` - For any aliases
 - `.config/zsh/local/path-local.sh` - For any `$PATH` updates
+- `.config/zsh/local/rc-local.sh` - For any other local zshrc file changes
 
 ### nvim
 
