@@ -12,7 +12,8 @@ export HISTFILE="$HOME/.zsh_history"
 export HISTSIZE=10000000
 export SAVEHIST=10000000
 
-PS1="[%n@%m:%20<...<%~%<<]$ "
+autoload -U colors && colors
+PS1="%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[blue]%}%20<...<%~%<<%{$reset_color%}$ "
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
