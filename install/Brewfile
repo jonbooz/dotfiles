@@ -10,6 +10,5 @@ brew "btop"
 brew "glow"
 brew "lua"
 brew "luarocks"
-brew "elixir"
 
 cask "amethyst"
