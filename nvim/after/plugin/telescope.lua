@@ -60,6 +60,6 @@ telescope.load_extension('find_template')
 
 nmap('\\', builtin.live_grep, {})
 nmap('<leader>p', builtin.find_files, {})
-nmap('<leader>be', builtin.buffers, {})
+nmap('<leader>b', builtin.buffers, {})
 nmap('<leader>fh', ":Telescope help_tags<CR>", {})
 nmap('<leader>m', ':Telescope find_template type=insert<cr>')
