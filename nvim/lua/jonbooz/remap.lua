@@ -56,6 +56,9 @@ nmap("<leader>g", ":Glow %<cr>")
 
 nmap("<leader><leader>s", ":source ~/.config/nvim/after/plugin/luasnip.lua")
 
+nmap("<leader>ce", ":Copilot enable<cr>")
+nmap("<leader>cd", ":Copilot disable<cr>")
+
 --[[
 nmap("<leader>sp", ":norm mm[s1z=`m<cr>", opts)
 
