@@ -22,7 +22,11 @@ export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 alias ls='ls -G'
 
-export VISUAL=/opt/homebrew/bin/nvim
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    export VISUAL=/opt/homebrew/bin/nvim
+elif [[ "$OSTYPE" == "linux-gnu" ]]; then
+    export VISUAL=/usr/bin/nvim
+fi
 export EDITOR="$VISUAL"
 
 # Stop <c-d> exiting
