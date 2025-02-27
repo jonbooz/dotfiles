@@ -37,6 +37,7 @@ You are required to create the following lua files to provide local system confi
 - [bat](https://github.com/sharkdp/bat)
 - [eza](https://github.com/eza-community/eza)
 - [btop](https://github.com/aristocratos/btop)
+- [starship](https://starship.rs/)
 - [nerd fonts](https://www.nerdfonts.com/font-downloads) for devicons to display in nvim-tree
 - [cmake](https://cmake.org/) `brew install cmake` or else the installation of telescopes fzf plugin will fail
 - [fd](https://github.com/sharkdp/fd) as an optional dependency of telescope, used in telescope.lua

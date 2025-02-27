@@ -68,3 +68,4 @@ source $ZSH_CONFIG/fzf.zsh
 
 # compinit
 # eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
