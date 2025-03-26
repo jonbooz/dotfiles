@@ -45,7 +45,7 @@ nmap("<leader>n", ":setlocal number!<cr>")
 nmap("<leader>/", ":set hlsearch!<cr>")
 
 -- Terminal Mode
-nmap("<C-`>", ":terminal<cr>i")
+nmap("<leader>`", ":terminal<cr>i")
 tmap("<C-`>", "<C-\\><C-n>")
 tmap("<Esc>", "<C-\\><C-n>")
 
