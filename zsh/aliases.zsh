@@ -15,6 +15,7 @@ alias l='eza - --icons --group-directories-first'
 # Git
 alias gitlog='git log --pretty=format:"%h %s" --graph'
 alias gl='git log --pretty=format:"%h %s" --graph'
+alias gcl='git clone --recursive -j8'
 alias ga='git add'
 alias gaa='git add .'
 alias gap='git add -p'
