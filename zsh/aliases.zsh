@@ -1,16 +1,7 @@
 
-# Vim
-alias vi='nvim'
-alias vim='nvim'
-
 # ls/eza
 alias ll='ls -alF'
 alias la='ls -A'
-alias ls='eza --icons --group-directories-first'
-alias la='eza -a --icons --group-directories-first'
-alias ll='eza -l --icons --group-directories-first'
-alias lla='eza -la --icons --group-directories-first'
-alias l='eza - --icons --group-directories-first'
 
 # Git
 alias gitlog='git log --pretty=format:"%h %s" --graph'
@@ -37,7 +28,7 @@ alias gpo='git push origin mainline'
 alias gpu='git pull'
 alias gst='git status -u'
 alias it='git'
-alias gclsb='git clone --recurse-submodules -j8 git://github.com/foo/bar.git'
+alias gclsb='git clone --recurse-submodules -j8'
 alias gsubup='git submodule update --remote --recursive'
 alias gsubupl='git -c protocol.file.allow=always submodule update --remote --recursive'
 
@@ -49,11 +40,6 @@ alias tn="tmux new -s"
 alias tls="tmux ls"
 alias ta="tmux attach -t"
 alias tk="tmux kill-session -t"
-
-# unix upgrades
-alias grep='rg'
-alias cat="bat"
-alias htop="btop"
 
 # other
 alias :q='exit'
