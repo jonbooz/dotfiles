@@ -55,7 +55,6 @@ telescope.setup({
     },
 })
 
-telescope.load_extension('fzf')
 telescope.load_extension('find_template')
 
 nmap('\\', builtin.live_grep, {})

@@ -15,15 +15,14 @@ vim.opt.rtp:prepend(lazypath)
 
 
 local plugins = {
-    { 'nvim-telescope/telescope-fzf-native.nvim',   build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' },
-    { 'nvim-telescope/telescope.nvim',              tag = '0.1.8',                                                                                                                         dependencies = { 'nvim-lua/plenary.nvim' } },
+    { 'nvim-telescope/telescope.nvim',              tag = '0.1.8',                                                   dependencies = { 'nvim-lua/plenary.nvim' } },
 
     { "JoosepAlviste/nvim-ts-context-commentstring" },
 
-    { "nvim-treesitter/nvim-treesitter",            build = ":TSUpdate",                                                                                                                   dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
+    { "nvim-treesitter/nvim-treesitter",            build = ":TSUpdate",                                             dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
 
     -- Colour scheme
-    { "ellisonleao/gruvbox.nvim",                   priority = 1000,                                                                                                                       config = true,                                                   opts = ... },
+    { "ellisonleao/gruvbox.nvim",                   priority = 1000,                                                 config = true,                                                   opts = ... },
 
     -- lsp-zero
     { 'williamboman/mason.nvim' },
@@ -49,13 +48,13 @@ local plugins = {
     { 'nvim-lualine/lualine.nvim' },
     { 'numToStr/Comment.nvim',                      dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
 
-    { "kylechui/nvim-surround",                     version = "*",                                                                                                                         event = "VeryLazy" },
-    { 'smoka7/hop.nvim',                            version = "*",                                                                                                                         opts = { keys = 'etovxqpdygfblzhckisuran' } },
+    { "kylechui/nvim-surround",                     version = "*",                                                   event = "VeryLazy" },
+    { 'smoka7/hop.nvim',                            version = "*",                                                   opts = { keys = 'etovxqpdygfblzhckisuran' } },
 
-    { 'goolord/alpha-nvim',                         dependencies = { "nvim-tree/nvim-web-devicons" },                                                                                      event = "VimEnter" },
+    { 'goolord/alpha-nvim',                         dependencies = { "nvim-tree/nvim-web-devicons" },                event = "VimEnter" },
 
     { 'folke/zen-mode.nvim',                        opts = {} },
-    { "ellisonleao/glow.nvim",                      config = true,                                                                                                                         cmd = "Glow" },
+    { "ellisonleao/glow.nvim",                      config = true,                                                   cmd = "Glow" },
     { "phelipetls/vim-hugo" },
 
     {
