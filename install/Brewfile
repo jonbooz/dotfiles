@@ -12,5 +12,3 @@ brew "lua"
 brew "luarocks"
 brew "node"
 brew "starship"
-
-cask "amethyst"
