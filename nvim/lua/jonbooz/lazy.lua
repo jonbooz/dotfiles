@@ -15,16 +15,22 @@ vim.opt.rtp:prepend(lazypath)
 
 
 local plugins = {
+    -- Searching
     { 'nvim-telescope/telescope.nvim',              tag = '0.1.8',                                                   dependencies = { 'nvim-lua/plenary.nvim' } },
 
+    -- Handles nested comments, use along with Comment.nvim
     { "JoosepAlviste/nvim-ts-context-commentstring" },
+    -- Comment Toggler
+    { 'numToStr/Comment.nvim',                      dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
 
+
+    -- Advanced syntax highlight. Is it necessary?
     { "nvim-treesitter/nvim-treesitter",            build = ":TSUpdate",                                             dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
 
     -- Colour scheme
     { "ellisonleao/gruvbox.nvim",                   priority = 1000,                                                 config = true,                                                   opts = ... },
 
-    -- lsp-zero
+    -- Package Manager, LSP, completion, and snippets
     { 'williamboman/mason.nvim' },
     { 'williamboman/mason-lspconfig.nvim' },
     { 'VonHeikemen/lsp-zero.nvim',                  branch = 'v3.x' },
@@ -36,27 +42,47 @@ local plugins = {
     { 'L3MON4D3/LuaSnip' },
     { 'honza/vim-snippets' },
 
+    -- Visual undo true
     { 'mbbill/undotree' },
 
+    -- Formatter
     { 'stevearc/conform.nvim' },
 
+    -- :Git plugin
     { 'tpope/vim-fugitive' },
 
+    -- File Explorer tree and devicons
     { 'nvim-tree/nvim-tree.lua' },
     { 'nvim-tree/nvim-web-devicons' },
 
+    -- Status Line
     { 'nvim-lualine/lualine.nvim' },
-    { 'numToStr/Comment.nvim',                      dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
 
+    -- Surround
     { "kylechui/nvim-surround",                     version = "*",                                                   event = "VeryLazy" },
+
+    -- EasyMotion: hop to
     { 'smoka7/hop.nvim',                            version = "*",                                                   opts = { keys = 'etovxqpdygfblzhckisuran' } },
 
+    -- The Greeter
     { 'goolord/alpha-nvim',                         dependencies = { "nvim-tree/nvim-web-devicons" },                event = "VimEnter" },
 
+    -- Zen Mode for Writing/Reading
     { 'folke/zen-mode.nvim',                        opts = {} },
-    { "ellisonleao/glow.nvim",                      config = true,                                                   cmd = "Glow" },
+
+    -- Markdown Renderer
+    {
+        'MeanderingProgrammer/render-markdown.nvim',
+        dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' }, -- if you prefer nvim-web-devicons
+        ---@module 'render-markdown'
+        ---@type render.md.UserConfig
+        opts = {},
+    },
+
+    -- Hugo Template Support
     { "phelipetls/vim-hugo" },
 
+    -- Nvim Templates
     {
         'nvimdev/template.nvim',
         cmd = { 'Template', 'TemProject' },
@@ -66,6 +92,9 @@ local plugins = {
             })
         end
     },
+
+
+    -- Scratch Pad
     {
         "https://git.sr.ht/~swaits/scratch.nvim",
         lazy = true,
@@ -80,6 +109,7 @@ local plugins = {
         opts = {},
     },
 
+    -- Database Plugin
     { "tpope/vim-dadbod" },
     { "kristijanhusak/vim-dadbod-completion" },
     { "kristijanhusak/vim-dadbod-ui" },
