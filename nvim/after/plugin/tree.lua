@@ -13,7 +13,7 @@ require("nvim-tree").setup({
         },
     },
     sort = {
-        sorter = "case_sensitive",
+        sorter = "modification_time",
     },
     view = {
         width = 30,
