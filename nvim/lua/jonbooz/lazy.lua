@@ -32,9 +32,6 @@ local plugins = {
 
     -- Package Manager, LSP, completion, and snippets
     { 'williamboman/mason.nvim' },
-    -- { 'williamboman/mason-lspconfig.nvim' },
-    -- { 'VonHeikemen/lsp-zero.nvim',                  branch = 'v3.x' },
-    -- { 'neovim/nvim-lspconfig' },
     { 'hrsh7th/cmp-nvim-lsp' },
     { 'hrsh7th/nvim-cmp' },
     { 'hrsh7th/cmp-buffer' },
@@ -44,9 +41,6 @@ local plugins = {
 
     -- Visual undo true
     { 'mbbill/undotree' },
-
-    -- Formatter
-    -- { 'stevearc/conform.nvim' },
 
     -- :Git plugin
     { 'tpope/vim-fugitive' },
