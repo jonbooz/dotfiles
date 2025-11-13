@@ -22,6 +22,9 @@ export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
 alias ls='ls -G'
 
+# xterm-ghostty isn't always recognized by remote terminals
+export TERM=xterm-256color
+
 if [[ "$OSTYPE" == "darwin"* ]]; then
     export VISUAL=/opt/homebrew/bin/nvim
 elif [[ "$OSTYPE" == "linux-gnu" ]]; then
