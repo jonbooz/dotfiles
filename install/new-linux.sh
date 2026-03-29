@@ -12,7 +12,8 @@ echo "Installing dependencies... " && \
             zsh \
             fzf \
             bat \
-            gpg
+            gpg \
+            unzip
 
 # Alias bat correctly
 mkdir -p ~/.local/bin
