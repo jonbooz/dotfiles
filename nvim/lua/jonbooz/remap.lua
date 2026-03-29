@@ -29,9 +29,6 @@ nmap("_bash", ":set ft=bash")
 -- Copy to system clipboard (mac)
 vmap("<leader>c", "\"*y")
 
--- strip whitespace
--- nmap("<leader>W", ":%s/\s\+$//<cr>:let @/=''<CR>")
-
 -- select the just pasted text
 nmap("<leader>V", "V`]")
 
@@ -55,51 +52,3 @@ nmap("<leader>m", ":Telescope find_template type=insert<cr>")
 nmap("<leader>g", ":Glow %<cr>")
 
 nmap("<leader><leader>s", ":source ~/.config/nvim/after/plugin/luasnip.lua")
-
-nmap("<leader>ce", ":Copilot enable<cr>")
-nmap("<leader>cd", ":Copilot disable<cr>")
-
---[[
-nmap("<leader>sp", ":norm mm[s1z=`m<cr>", opts)
-
-nmap("<leader>w", ":w!<cr>", opts)
-nmap("n", "nzzzv", opts)
-nmap("N", "Nzzzv", opts)
-nmap("J", "mzJ`z", opts)
-nmap("<C-d>", "<C-d>zz", opts)
-nmap("<C-u>", "<C-u>zz", opts)
-
-nmap("<leader><Enter>", ":noh<cr>", opts)
-
-vmap("J", ":m '>+1<CR>gv=gv", opts)
-vmap("K", ":m '<-2<CR>gv=gv", opts)
-
-nmap("<leader>y", "\"+y")
-nmap("<leader>Y", "\"+Y")
-vmap("<leader>y", "\"+y")
-
-vmap("<leader>p", "\"_dP", opts)
-vmap("<leader>d", "\"_d", opts)
-nmap("<leader>d", "\"_d", opts)
-
-nmap("Q", "<nop")
-
-nmap("<leader>f", function() vim.lsp.buf.format() end)
-
-nmap("<C-k>", "<cmd>cnext<CR>zz")
-nmap("<C-j>", "<cmd>cprev<CR>zz")
-
-nmap("<leader>h", "<C-w>h")
-nmap("<leader>j", "<C-w>j")
-nmap("<leader>k", "<C-w>k")
-nmap("<leader>l", "<C-w>l")
-
-
-nmap("<leader><leader>s", ":source %<CR>")
-
-nmap("<leader>+", ":vertical resize +5<CR>", { silent = true })
-nmap("<leader>-", ":vertical resize -5<CR>", { silent = true })
-
-]]
-
---nmap("<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])

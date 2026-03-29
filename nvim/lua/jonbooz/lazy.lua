@@ -23,7 +23,6 @@ local plugins = {
     -- Comment Toggler
     { 'numToStr/Comment.nvim',                      dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
 
-
     -- Advanced syntax highlight. Is it necessary?
     { "nvim-treesitter/nvim-treesitter",            build = ":TSUpdate",                                             dependencies = { "JoosepAlviste/nvim-ts-context-commentstring" } },
 
@@ -37,7 +36,6 @@ local plugins = {
     { 'hrsh7th/cmp-buffer' },
     { 'saadparwaiz1/cmp_luasnip' },
     { 'L3MON4D3/LuaSnip' },
-    { 'honza/vim-snippets' },
 
     -- Visual undo true
     { 'mbbill/undotree' },
@@ -93,11 +91,6 @@ local plugins = {
         },
         opts = {},
     },
-
-    -- Database Plugin
-    { "tpope/vim-dadbod" },
-    { "kristijanhusak/vim-dadbod-completion" },
-    { "kristijanhusak/vim-dadbod-ui" },
 }
 
 local local_lazy = require("jonbooz.local.plugins")

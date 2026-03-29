@@ -61,7 +61,6 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim) as a plugin manager, here 
 - [Comment.nvim](https://github.com/numToStr/Comment.nvim) to comment out your broken code
 - [nvim-surround](https://github.com/kylechui/nvim-surround) to surround whatever you want, with whatever you want
 - [conform.nvim](https://github.com/stevearc/conform.nvim) to enable formatters such as eslint
-- [vim-dadbod](https://github.com/tpope/vim-dadbod/) for mysql connections and queries in vim
 - [hop.nvim](https://github.com/smoka7/hop.nvim) for cursor movement
 - [zen-mode.nvim](https://github.com/folke/zen-mode.nvim) for distraction-free writing
 - [glow.nvim](https://github.com/ellisonleao/glow.nvim) for Markdown rendering
