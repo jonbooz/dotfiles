@@ -17,7 +17,6 @@ echo "Copying: zprofile -> ~/.zprofile" && cp zprofile ~/.zprofile
 echo "Copying: zshrc -> ~/.zshrc" && cp zshrc ~/.zshrc
 echo "Copying: zsh/ -> ~/.config/zsh" && rsync -avhH $RESET zsh/ ~/.config/zsh/
 
-echo "Copying: gitconfig -> ~/.gitconfig" && cp gitconfig ~/.gitconfig
 echo "Copying: starship.toml -> ~/.config/" && cp starship.toml ~/.config/starship.toml
 
 echo "Copying: tmux.conf -> ~/.tmux.conf" && cp tmux.conf ~/.tmux.conf
