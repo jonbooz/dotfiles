@@ -56,9 +56,6 @@ local plugins = {
     -- EasyMotion: hop to
     { 'smoka7/hop.nvim',                            version = "*",                                                   opts = { keys = 'etovxqpdygfblzhckisuran' } },
 
-    -- The Greeter
-    { 'goolord/alpha-nvim',                         dependencies = { "nvim-tree/nvim-web-devicons" },                event = "VimEnter" },
-
     -- Zen Mode for Writing/Reading
     { 'folke/zen-mode.nvim',                        opts = {} },
 
