@@ -1,0 +1,7 @@
+cmd + ctrl - a : open -a "System Preferences"  # Audio (approximate)
+cmd + ctrl - t : open -a ActivityMonitor        # Omarchy Super+Ctrl+T (btop equiv)
+cmd + ctrl - c : screencapture -i ~/Desktop/screenshot-$(date +%s).png  # Capture
+cmd + ctrl - l : open -a ScreenSaverEngine      # Lock (Omarchy Super+Ctrl+L)
+
+# Clipboard manager — whatever you use (Maccy, Raycast, etc.)
+# cmd + ctrl - v : open -a Maccy

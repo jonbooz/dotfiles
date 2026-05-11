@@ -1,0 +1,8 @@
+# CapsLock: tap = Escape, hold = Hyper (Cmd+Opt+Ctrl+Shift)
+.alias $hyper cmd + alt + ctrl + shift
+.alias $meh   alt + ctrl
+
+# .load "windows.skhdrc"
+.load "apps.skhdrc"
+.load "system.skhdrc"
+.load "captures.skhdrc"

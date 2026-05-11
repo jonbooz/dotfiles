@@ -1,0 +1,6 @@
+# Screenshots (Omarchy Print Screen equiv)
+$hyper - s          : screencapture -i ~/Desktop/screenshot-$(date +%s).png
+# $hyper + shift - s  : screencapture -i -c  # to clipboard
+
+# Notification dismiss — approximate via script
+# $hyper - comma       : osascript -e 'tell app "System Events" to keystroke return'

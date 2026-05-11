@@ -10,8 +10,11 @@ mkdir -p ~/.bin/
 mkdir -p ~/.config/nvim/
 mkdir -p ~/.config/zsh
 mkdir -p ~/.config/tmux/
+mkdir -p ~/.config/skhd/
 
 echo "Copying: nvim/  -> ~/.config/nvim/" && rsync -avhH $RESET nvim/ ~/.config/nvim/
+
+echo "Copying: skhd/  -> ~/.config/skhd/" && rsync -avhH $RESET skhd/ ~/.config/skhd/
 
 echo "Copying: zprofile -> ~/.zprofile" && cp zprofile ~/.zprofile
 echo "Copying: zshrc -> ~/.zshrc" && cp zshrc ~/.zshrc

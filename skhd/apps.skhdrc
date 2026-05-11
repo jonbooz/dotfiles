@@ -1,0 +1,15 @@
+$meh - return  : open -a Ghostty           # Terminal (Omarchy Super+Return)
+$meh - b       : open -a Safari            # Browser (Omarchy Super+Shift+Return)
+# $meh - n       : open -a Neovim            # Omarchy Super+Shift+N
+$meh - m       : open -a Music             # Omarchy Super+Shift+M
+$meh - o       : open -a Obsidian          # Omarchy Super+Shift+O
+$meh - e       : open -a Fastmail          # Omarchy Super+Shift+E
+# $meh - c       : open -a "HEY"             # Calendar
+$meh - f       : open -a Finder            # Omarchy Super+Shift+F
+$meh - a       : open -a "Open WebUI"      # Omarchy Super+Shift+A
+$meh - c       : open -a Messages            # Omarchy Super+Shift+G
+$meh - p       : open -a Bitwarden     # Omarchy Super+Shift+/
+$meh - s       : open -a "System Preferences"
+# $meh - d       : open -a Docker            # Omarchy Super+Shift+D
+# $meh - x       : open -a X                 # Omarchy Super+Shift+X
+# $meh - y       : open -a YouTube           # Omarchy Super+Shift+Y
