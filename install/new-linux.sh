@@ -2,18 +2,26 @@
 
 sudo apt update
 
-echo "Installing dependencies... " && \
-    sudo apt install -y vim \
-            neovim \
-            npm \
-            fd-find \
-            ripgrep \
-            cmake \
-            zsh \
-            fzf \
-            bat \
-            gpg \
-            unzip
+echo "Installing dependencies... " &&
+  sudo apt install -y vim \
+    neovim \
+    npm \
+    fd-find \
+    ripgrep \
+    cmake \
+    zsh \
+    fzf \
+    bat \
+    gpg \
+    unzip
+
+# Install LazyVim
+mv ~/.config/nvim{,.bak}
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
 
 # Alias bat correctly
 mkdir -p ~/.local/bin

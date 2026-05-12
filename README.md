@@ -29,6 +29,7 @@ You are required to create the following lua files to provide local system confi
 ## Software Used
 
 - [neovim](https://github.com/neovim/neovim)
+- [lazyvim](https://www.lazyvim.org/)
 - [tmux](https://github.com/tmux/tmux)
 - [zsh](https://www.zsh.org/)
 - [amethyst](https://ianyh.com/amethyst/)
