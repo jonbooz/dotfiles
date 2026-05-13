@@ -30,6 +30,7 @@ alias it='git'
 alias gclsb='git clone --recurse-submodules -j8'
 alias gsubup='git submodule update --remote --recursive'
 alias gsubupl='git -c protocol.file.allow=always submodule update --remote --recursive'
+alias gbreset='git reset --soft $(git merge-base HEAD mainline)'
 
 # cd
 alias cdd='cd ~/workspace/dotfiles'

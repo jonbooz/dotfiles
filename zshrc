@@ -46,17 +46,13 @@ export HISTCONTROL=ignoredups:erasedups
 # After each command, save and reload history
 export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 
-export ZSH_CONFIG=~/.config/zsh/
+export ZSH_CONFIG=~/.config/zsh
 
-## Sources
-source $ZSH_CONFIG/aliases.zsh
-
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    source $ZSH_CONFIG/path-mac.zsh
-elif [[ "$OSTYPE" == "linux-gnu" ]]; then
-    source $ZSH_CONFIG/path-linux.zsh
-fi
-if [[ -f $ZSH_CONFIG/local/imports.zsh ]]; then
-    source $ZSH_CONFIG/local/imports.zsh
-fi
+# Source all .zsh files from a config directory
+for file in $ZSH_CONFIG/*.zsh(N); do
+  source "$file"
+done
+for file in $ZSH_CONFIG/local/*.zsh(N); do
+  source "$file"
+done
 
