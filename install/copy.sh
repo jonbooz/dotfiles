@@ -28,5 +28,3 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
     cp tmux/local.conf ~/.config/tmux/local.conf
 fi
-
-echo "Copying: bin/  -> ~/.bin/" && rsync -avhH $RESET bin/ ~/.bin/
