@@ -13,6 +13,7 @@ $meh - v       : open -a Bitwarden        # Omarchy Super+Shift+/
 $meh - s       : open -a "System Preferences"
 $meh - t       : open -a "Things3"
 $meh - p       : open -a BambuStudio
+$meh - r       : open -a Reader
 # $meh - d       : open -a Docker            # Omarchy Super+Shift+D
 # $meh - x       : open -a X                 # Omarchy Super+Shift+X
 # $meh - y       : open -a YouTube           # Omarchy Super+Shift+Y
