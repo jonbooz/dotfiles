@@ -16,3 +16,4 @@ brew "jackielii/tap/skhd-zig"
 
 cask "betterdisplay"
 cask "amethyst"
+cask "ghostty"

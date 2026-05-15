@@ -20,3 +20,4 @@ rm -rf ~/.config/nvim/.git
 defaults write com.apple.dock workspaces-auto-swoosh -bool NO
 killall Dock
 
+echo "Installing tmux plugin manager..." && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
