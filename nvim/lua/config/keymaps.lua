@@ -69,3 +69,6 @@ Nmap("<leader>mp", ":!md2pdf %<cr><cr>")
 Nmap("<leader>m", ":Telescope find_template type=insert<cr>")
 
 -- Nmap("<leader><leader>s", ":source ~/.config/nvim/after/plugin/luasnip.lua")
+
+Nmap("J", ":0<cr>")
+Nmap("K", ":$<cr>")
