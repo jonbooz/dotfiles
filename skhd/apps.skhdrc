@@ -1,5 +1,3 @@
-$meh - return  : open -a Ghostty           # Terminal (Omarchy Super+Return)
-$meh - b       : open -a Safari            # Browser (Omarchy Super+Shift+Return)
-$meh - o       : open -a Obsidian          # Omarchy Super+Shift+O
-$meh - f       : open -a Finder            # Omarchy Super+Shift+F
-$meh - s       : open -a "System Preferences"
+$hyper - return  : open -a Ghostty           # Terminal (Omarchy Super+Return)
+$hyper - f       : open -a Finder            # Omarchy Super+Shift+F
+$hyper - s       : open -a "System Preferences"
