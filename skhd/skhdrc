@@ -4,5 +4,5 @@
 # .load "windows.skhdrc"
 .load "apps.skhdrc"
 .load "system.skhdrc"
-.load "captures.skhdrc"
+# .load "captures.skhdrc"
 .load "local.skhdrc"
