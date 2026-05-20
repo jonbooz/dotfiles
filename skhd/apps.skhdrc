@@ -1,3 +1,4 @@
-$hyper - return  : open -a Ghostty           # Terminal (Omarchy Super+Return)
-$hyper - f       : open -a Finder            # Omarchy Super+Shift+F
-$hyper - s       : open -a "System Preferences"
+$meh - return  : open -a Ghostty           # Terminal (Omarchy Super+Return)
+$meh - f       : open -a Finder            # Omarchy Super+Shift+F
+$meh - s       : open -a "System Preferences"
+$meh - a       : open -a ActivityMonitor
