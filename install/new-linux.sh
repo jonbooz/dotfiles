@@ -13,6 +13,7 @@ echo "Installing dependencies... " &&
     fzf \
     bat \
     gpg \
+    lazygit \
     unzip
 
 # Install LazyVim

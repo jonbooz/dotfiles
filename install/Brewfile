@@ -12,6 +12,7 @@ brew "lua"
 brew "luarocks"
 brew "node"
 brew "starship"
+brew "lazygit"
 brew "jackielii/tap/skhd-zig"
 
 cask "betterdisplay"
