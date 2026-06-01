@@ -1,15 +1,15 @@
 {
   "Daily Note": {
-    "prefix": "# 20",
+    "prefix": "#20",
     "description": "Daily Note",
     "body": [
-      "# $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      "# $TM_FILENAME_BASE",
       " ",
-      " ",
+      " "
     ]
   },
   "Person Note": {
-    "prefix": "# Person",
+    "prefix": "#Person",
     "description": "Person Note",
     "body": [
       "# $TM_FILENAME_BASE",
@@ -29,7 +29,7 @@
     ]
   },
   "Project Note": {
-    "prefix": "# Project",
+    "prefix": "#Project",
     "description": "Project Note",
     "body": [
       "# $TM_FILENAME_BASE",
