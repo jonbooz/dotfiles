@@ -1,0 +1,53 @@
+{
+  "Daily Note": {
+    "prefix": "# 20",
+    "description": "Daily Note",
+    "body": [
+      "# $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE",
+      " ",
+      " ",
+    ]
+  },
+  "Person Note": {
+    "prefix": "# Person",
+    "description": "Person Note",
+    "body": [
+      "# $TM_FILENAME_BASE",
+      "  ",
+      "- #people",
+      "- Name: $1",
+      "- Role: $2",
+      "- Manager: [$3.md]",
+      "- [phone tool](https://phonetool.amazon.com/users/$TM_FILENAME_BASE)",
+      "- [code reviews](https://code.amazon.com/reviews/from-user/$TM_FILENAME_BASE?time=review&open=true&canceled=true&pending=true&shipped=true)",
+      "- [commits](https://code.amazon.com/users/$TM_FILENAME_BASE/activity?time=review)",
+      "  ",
+      "## Summary",
+      " ",
+      " ",
+      "## Note Log"
+    ]
+  },
+  "Project Note": {
+    "prefix": "# Project",
+    "description": "Project Note",
+    "body": [
+      "# $TM_FILENAME_BASE",
+      " ",
+      "- #project",
+      "- Parent Project: [$1.md]",
+      "- My Role: $2",
+      "- PM: [$3.md]",
+      "- Engineer POC: [$4.md]",
+      "- Science POC: [$5.md]",
+      "- PRFAQ: $6",
+      "- Technical Design: $7",
+      "- Doc Repo: $8",
+      "  ",
+      "## Summary",
+      " ",
+      " ",
+      "## Note Log"
+    ]
+  }
+}
