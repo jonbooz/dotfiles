@@ -4,8 +4,8 @@
     "description": "Daily Note",
     "body": [
       "# $TM_FILENAME_BASE",
-      " ",
-      " "
+      "",
+      ""
     ]
   },
   "Person Note": {
@@ -13,7 +13,7 @@
     "description": "Person Note",
     "body": [
       "# $TM_FILENAME_BASE",
-      "  ",
+      "",
       "- #people",
       "- Name: $1",
       "- Role: $2",
@@ -23,9 +23,10 @@
       "- [commits](https://code.amazon.com/users/$TM_FILENAME_BASE/activity?time=review)",
       "  ",
       "## Summary",
-      " ",
-      " ",
-      "## Note Log"
+      "",
+      "",
+      "## Note Log",
+      ""
     ]
   },
   "Project Note": {
@@ -33,7 +34,7 @@
     "description": "Project Note",
     "body": [
       "# $TM_FILENAME_BASE",
-      " ",
+      "",
       "- #project",
       "- Parent Project: [$1.md]",
       "- My Role: $2",
@@ -43,11 +44,12 @@
       "- PRFAQ: $6",
       "- Technical Design: $7",
       "- Doc Repo: $8",
-      "  ",
+      "",
       "## Summary",
-      " ",
-      " ",
-      "## Note Log"
+      "",
+      "",
+      "## Note Log",
+      ""
     ]
   }
 }
