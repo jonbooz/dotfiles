@@ -1,4 +1,14 @@
-# Vim Commands and Notes
+# Vim
+
+I use [neovim](https://github.com/neovim/neovim) with the [lazyvim](https://www.lazyvim.org/) distribution as a base package and keymapping setup, with minor customizations.
+
+See [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes/) for advanced details on its features and use.
+
+## Snippets
+
+The snippets used by LazyVim use the [Visual Studio Code Syntax](https://code.visualstudio.com/docs/editing/userdefinedsnippets).
+
+## Commands and Keys
 
 **Normal Mode**
 ```
