@@ -3,7 +3,7 @@ function layout() {
         name: "Widescreen Tall (Zoom)",
         extends: "widescreen-tall",
         initialState: {
-            topOffset: 150
+            topOffset: 125
         },
         commands: {
             command1: {

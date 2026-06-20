@@ -3,7 +3,7 @@ function layout() {
         name: "Fullscreen (Zoom)",
         extends: "fullscreen",
         initialState: {
-            topOffset: 150
+            topOffset: 125
         },
         commands: {
             command1: {

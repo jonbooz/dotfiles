@@ -3,7 +3,7 @@ function layout() {
         name: "Tall Right (Zoom)",
         extends: "tall-right",
         initialState: {
-            topOffset: 150
+            topOffset: 125
         },
         commands: {
             command1: {

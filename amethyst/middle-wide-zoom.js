@@ -3,7 +3,7 @@ function layout() {
         name: "3Column Middle (Zoom)",
         extends: "middle-wide",
         initialState: {
-            topOffset: 150
+            topOffset: 125
         },
         commands: {
             command1: {

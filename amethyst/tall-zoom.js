@@ -3,7 +3,7 @@ function layout() {
         name: "Tall (Zoom)",
         extends: "tall",
         initialState: {
-            topOffset: 150
+            topOffset: 125
         },
         commands: {
             command1: {

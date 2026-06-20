@@ -3,7 +3,7 @@ function layout() {
         name: "Two Pane (Zoom)",
         extends: "two-pane",
         initialState: {
-            topOffset: 150
+            topOffset: 125
         },
         commands: {
             command1: {
