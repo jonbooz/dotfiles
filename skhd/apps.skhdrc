@@ -2,3 +2,4 @@ $meh - return  : open -a Ghostty           # Terminal (Omarchy Super+Return)
 $meh - f       : open -a Finder            # Omarchy Super+Shift+F
 $meh - s       : open -a "System Preferences"
 $meh - d       : open -a ActivityMonitor
+$med - q       : open -a Calculator
