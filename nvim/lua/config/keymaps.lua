@@ -57,8 +57,6 @@ Nmap("<leader>vs", "<C-w>v")
 -- toggle line numbers
 Nmap("<leader>n", ":setlocal number!<cr>")
 
-Nmap("<leader>/", ":set hlsearch!<cr>")
-
 -- Terminal Mode
 Nmap("<leader>`", ":terminal<cr>i")
 Tmap("<C-`>", "<C-\\><C-n>")
