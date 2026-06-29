@@ -41,3 +41,7 @@ sudo apt install -y eza
 
 echo "Installing starship..."
 curl -sS https://starship.rs/install.sh | sh
+
+echo "Installing homebrew..."
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/home/linuxbrew/.linuxbrew/bin/brew install zoxide
