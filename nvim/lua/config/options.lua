@@ -3,4 +3,4 @@
 -- Add any additional options here
 
 vim.g.mapleader = ","
-vim.opt.relativenumber = false
+vim.opt.relativenumber = true
