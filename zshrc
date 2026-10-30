@@ -16,7 +16,7 @@ autoload -U colors && colors
 PS1="%{$fg[green]%}%n@%m%{$reset_color%}:%{$fg[blue]%}%20<...<%~%<<%{$reset_color%}$ "
 
 # make less more friendly for non-text input files, see lesspipe(1)
-[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+command -v lesspipe >/dev/null && eval "$(SHELL=/bin/sh lesspipe)"
 
 export CLICOLOR=1
 export LSCOLORS=ExGxBxDxCxEgEdxbxgxcxd
@@ -25,11 +25,9 @@ alias ls='ls -G'
 # xterm-ghostty isn't always recognized by remote terminals
 export TERM=xterm-256color
 
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    export VISUAL=/opt/homebrew/bin/nvim
-elif [[ "$OSTYPE" == "linux-gnu" ]]; then
-    export VISUAL=/usr/bin/nvim
-fi
+# Resolved from PATH: Homebrew on macOS, /usr/bin on Ubuntu, the Nix
+# profile on NixOS (which has no /usr/bin/nvim).
+export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 # Stop <c-d> exiting
