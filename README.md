@@ -12,6 +12,10 @@
 
 All required software can be installed with the included `install/new-x.sh` scripts. Scripts are available for MacOS and Linux (Ubuntu). They can either be run directly, or executed as part of a more system specific script.
 
+### Linking
+
+`install/link.sh` symlinks everything listed in `links` (`OS SOURCE TARGET`) into `~`, so the live files are this checkout: edit either and `git status` shows it. Anything already at a target is moved aside to `TARGET.bak-<time>`.
+
 ### zsh
 
 The provided zsh config provides two hooks for local system config:

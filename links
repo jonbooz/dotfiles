@@ -1,0 +1,14 @@
+# What install/link.sh (or system-setup's dotfiles module) links into ~.
+# OS (all, linux, mac)  SOURCE (globs ok)  TARGET (relative to ~; a trailing /
+# links each match into that directory; may contain spaces)
+all    nvim             .config/nvim
+all    zsh/*.zsh        .config/zsh/
+all    zshrc            .zshrc
+all    zprofile         .zprofile
+all    starship.toml    .config/starship.toml
+all    tmux.conf        .tmux.conf
+linux  tmux/local.conf  .config/tmux/local.conf
+mac    tmux/mac.conf    .config/tmux/local.conf
+mac    ghostty/config   .config/ghostty/config
+mac    skhd/*           .config/skhd/
+mac    amethyst/*.js    Library/Application Support/Amethyst/Layouts/
