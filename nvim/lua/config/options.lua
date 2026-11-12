@@ -12,8 +12,10 @@ if vim.g.neovide then
   vim.g.neovide_cursor_animation_length = 0.05
   vim.g.neovide_scroll_animation_length = 0.15
 
-  -- Start in ~/Documents/Notes rather than / when launched from the Dock/Finder
-  if vim.fn.getcwd() == "/" then
+  -- Start in ~/Documents/Notes when launched from the Dock/Finder/`open -a`.
+  -- Neovide already swaps launchd's cwd of / for $HOME, so check for both.
+  local cwd = vim.fn.getcwd()
+  if cwd == "/" or cwd == vim.fn.expand("~") then
     vim.cmd.cd("~/Documents/Notes")
   end
 
