@@ -19,6 +19,10 @@ mv ~/.cache/nvim{,.bak}
 # lazy.nvim installs the locked versions. To update plugins: :Lazy update,
 # then commit nvim/lazy-lock.json (the link means it's already in the repo).
 
+# Rectangle settings. Imported rather than linked: macOS replaces symlinked
+# plists in ~/Library/Preferences. See docs/rectangle.md to save changes back.
+defaults import com.knollsoft.Rectangle ./rectangle/com.knollsoft.Rectangle.plist
+
 # Required for Amethyst to force MacOS to not re-arrange Spaces based on most recent use
 defaults write com.apple.dock workspaces-auto-swoosh -bool NO
 killall Dock

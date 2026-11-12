@@ -5,6 +5,7 @@
 - [vim](/docs/vim.md)
 - [tmux](/docs/tmux.md)
 - [amethyst](/docs/amethyst.md)
+- [rectangle](/docs/rectangle.md)
 
 ## Installing
 
@@ -38,6 +39,7 @@ You are required to create the following lua files to provide local system confi
 - [tmux](https://github.com/tmux/tmux)
 - [zsh](https://www.zsh.org/)
 - [amethyst](https://ianyh.com/amethyst/)
+- [rectangle](https://rectangleapp.com/)
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
 - [fzf](https://github.com/junegunn/fzf)
 - [bat](https://github.com/sharkdp/bat)
