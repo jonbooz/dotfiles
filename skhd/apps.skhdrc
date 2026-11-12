@@ -1,4 +1,5 @@
 $meh - return  : open -a Ghostty           # Terminal (Omarchy Super+Return)
+$meh - e       : open -a Neovide           # Editor
 $meh - f       : open -a Finder            # Omarchy Super+Shift+F
 $meh - s       : open -a "System Preferences"
 $meh - d       : open -a "Activity Monitor"
